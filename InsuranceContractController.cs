@@ -16,7 +16,7 @@ namespace Lab1.Controllers
                 InsurantIdentity = "4512 345678",
                 ObjectIdentity = "VIN1234567890",
                 InsuredAmount = 2500000.00m,
-                Date = new DateOnly(2024, 1, 15)
+                Date = DateTime.UtcNow
             },
             new InsuranceContract
             {
@@ -25,7 +25,7 @@ namespace Lab1.Controllers
                 InsurantIdentity = "5601 987654", 
                 ObjectIdentity = "77:01:0001023:4567",
                 InsuredAmount = 8500000.00m,
-                Date = new DateOnly(2024, 2, 20)
+                Date = DateTime.UtcNow
             },
             new InsuranceContract
             {
@@ -34,7 +34,7 @@ namespace Lab1.Controllers
                 InsurantIdentity = "4512 345678", 
                 ObjectIdentity = "VIN104507904",
                 InsuredAmount = 800000.00m,
-                Date = new DateOnly(2024, 3, 10)
+                Date = DateTime.UtcNow
             },
             new InsuranceContract
             {
@@ -43,7 +43,7 @@ namespace Lab1.Controllers
                 InsurantIdentity = "7823 456789",
                 ObjectIdentity = "77:01:1023000:4567",
                 InsuredAmount = 6000000.00m,
-                Date = new DateOnly(2024, 3, 25)
+                Date = DateTime.UtcNow
             }
         };
 

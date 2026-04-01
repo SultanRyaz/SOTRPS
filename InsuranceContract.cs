@@ -6,7 +6,7 @@ namespace Lab1.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Идентификатор стращика обязателен")]
+        [Required(ErrorMessage = "Идентификатор страховщика обязателен")]
         public string InsurerIndentity { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Идентификатор страхователя обязателен")]
@@ -20,6 +20,6 @@ namespace Lab1.Models
         public decimal InsuredAmount { get; set; }
 
         [Required(ErrorMessage = "Дата обязательна")]
-        public DateOnly Date { get; set; }
+        public DateTime Date { get; set; }
     }
 }
